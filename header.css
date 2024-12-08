@@ -1,0 +1,132 @@
+.header {
+	background: darkgray;
+	position: fixed;
+	display: flex;
+	top: 1.4%;
+	//left: 14.8%;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 70.46%;
+	height: 50px;
+	margin: 0px auto 0px auto;
+	//border: 1px solid red;
+	z-index: 300;
+}
+
+@media (max-width: 1300px) {
+	.header {
+		width: 75.8%;
+	}
+}
+
+@media (max-width: 1200px) {
+	.header {
+		width: 88%;
+	}
+}
+
+@media (max-width: 1000px) {
+	.header {
+		width: 96.6%;
+		margin-left: 1.4%;
+		//border: 1px solid red;
+	}
+}
+
+
+
+.left-section {
+	display: flex;
+	flex: 1.5;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+	//border: 1px solid orange;
+	height: 100%;
+}
+
+.logo {
+	border: none;
+	font-family: 'Vazirmatn', 'lumanosimo', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	color: #666666;
+	color: white;
+	border: none;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.35);
+	padding: 5px;
+	margin-right: 2%;
+	cursor: pointer;
+}
+
+.mk {
+	color: #EA5255;
+	font-size: 35px;
+}
+
+.acount {
+	background-color: transparent;
+	//box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.35);
+	width: 45px;
+	height: 40px;
+	border-radius: 0;
+	border-radius: 5px;
+	display: flex;
+	cursor: pointer;
+}
+
+.acount-icon {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	//border: 1px solid green;	
+}
+
+.right-section {
+	display: flex;
+	flex: 1;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+	//border: 1px solid blue;
+	height: 100%;
+	
+}
+
+.search-bar {
+	width: 83%;
+	height: 69.9%;
+	cursor: text;
+	border-top-left-radius: 12px;
+	border-bottom-left-radius: 12px;
+	border: none;
+	outline: none;
+	padding-right: 10px;
+	color: darkgray;
+	font-weight: 500;
+	font-size: 13px;
+	font-family: 'Vazirmatn', 'Lateef', sans-serif;
+}
+
+
+.search-button {
+	width: 17%;
+	height: 69.9%;
+	cursor: pointer;
+	background-color: #383D3D;
+	font-family: 'Vazirmatn', 'Lateef', sans-serif;
+	color: darkgray;
+	font-weight: 400;
+	font-size: 13px;
+	text-align: center;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border: none;
+	padding-bottom: 5px;
+	transition: all 0.3s;
+}
+
+.search-button:hover {
+	color: #EA5255;
+}

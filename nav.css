@@ -1,0 +1,71 @@
+
+.sugess {
+	//border: 1px solid red;
+	background: rgb(100, 100, 100);
+	position: relative;
+	top: 74.5px;
+	//left: 14.8%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: right;
+	width: 70.45%;
+	height: 38px;
+	border-radius: 3px;
+	color: #808080;
+	z-index: 200;
+	font-family: 'Vazirmatn', 'Lateef', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+}
+
+@media (max-width: 1300px) {
+	.sugess {
+		width: 75.8%;
+	}
+}
+
+@media (max-width: 1200px) {
+	.sugess {
+		width: 88%;
+	}
+}
+
+@media (max-width: 1000px) {
+	.sugess {
+		width: 98.55%;
+		margin-bottom: 2%;
+		margin-left: 1.5%;
+		//border: 1px solid red;
+	}
+}
+
+.sugess p {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	padding-left: 12px;
+	padding-right: 12px;
+	//border: 1px solid black;
+	border-left: 1px solid rgb(70, 70, 70);
+	cursor: pointer;
+	transition: all 0.8s;
+}
+
+.sugess a{
+	display: flex;
+	align-items: center;
+	height: 100%;
+	text-decoration: none;
+	color: #808080;
+}
+
+.sugess p:hover {
+	background-color: #383D3D;
+	color: #EA5255;
+}
+
+.nav-margin {
+	background-color: pink;
+	padding-right: 800%;
+}
